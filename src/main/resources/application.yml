@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://test11111111.mysql.database.azure.com:3306/environment_train
+    username: tester
+    password: Test!234
+
+server:
+  port: 8888
+
+mybatis:
+  config-location: classpath:config/mybatis-config.xml
+  mapper-locations: classpath:mapper/*.xml
