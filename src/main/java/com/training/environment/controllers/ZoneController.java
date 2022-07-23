@@ -11,7 +11,7 @@ import java.util.concurrent.Future;
 
 @Api(tags = "空间区域接口")
 @RestController
-@RequestMapping("zone")
+@RequestMapping("/api/zone")
 public class ZoneController {
     final ZoneServiceImpl service;
 
